@@ -1,0 +1,22 @@
+From 0d485b03c2f17deaadc2d1c9494ab181c462dc2f Mon Sep 17 00:00:00 2001
+From: William Douglas <william.douglas@intel.com>
+Date: Thu, 21 Feb 2019 12:31:04 -0800
+Subject: [PATCH] Add install section
+
+---
+ Makefile | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/Makefile b/Makefile
+index f70f347..da4145a 100644
+--- a/Makefile
++++ b/Makefile
+@@ -80,3 +80,5 @@ check: ipcalc
+ 	test "$(SPLIT_LINES)" = "$(SPLIT_TOTAL)"
+ 	./ipcalc-tests
+ 
++install: ipcalc
++	install -D -m 0755 ipcalc $(DESTDIR)/usr/bin/ipcalc
+-- 
+2.20.1
+
