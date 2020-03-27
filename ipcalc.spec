@@ -4,7 +4,7 @@
 #
 Name     : ipcalc
 Version  : 0.2.5
-Release  : 1
+Release  : 2
 URL      : https://gitlab.com/ipcalc/ipcalc/-/archive/0.2.5/ipcalc-0.2.5.tar.gz
 Source0  : https://gitlab.com/ipcalc/ipcalc/-/archive/0.2.5/ipcalc-0.2.5.tar.gz
 Summary  : No detailed summary available
